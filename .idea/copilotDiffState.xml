@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CopilotDiffPersistence">
+    <option name="pendingDiffs">
+      <map>
+        <entry key="$PROJECT_DIR$/src/main/java/theater/Performance.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/theater/Performance.java" />
+              <option name="originalContent" value="package theater;&#10;&#10;/**&#10; * Class representing a performance of a play..&#10; */&#10;public class Performance {&#10;&#10;    private String playID;&#10;    private int audience;&#10;&#10;    public Performance(String playID, int audience) {&#10;        this.playID = playID;&#10;        this.audience = audience;&#10;    }&#10;}&#10;" />
+              <option name="updatedContent" value="package theater;&#10;&#10;/**&#10; * Class representing a performance of a play..&#10; */&#10;public class Performance {&#10;&#10;    private String playID;&#10;    private int audience;&#10;&#10;    public Performance(String playID, int audience) {&#10;        this.playID = playID;&#10;        this.audience = audience;&#10;    }&#10;&#10;    /**&#10;     * Gets the play ID for this performance.&#10;     * @return the play ID&#10;     */&#10;    public String getPlayID() {&#10;        return playID;&#10;    }&#10;&#10;    /**&#10;     * Gets the audience size for this performance.&#10;     * @return the audience size&#10;     */&#10;    public int getAudience() {&#10;        return audience;&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/theater/Play.java">
+          <value>
+            <PendingDiffInfo>
+              <option name="filePath" value="$PROJECT_DIR$/src/main/java/theater/Play.java" />
+              <option name="originalContent" value="package theater;&#10;&#10;/**&#10; * Represents a theatrical play with a name and type.&#10; *&#10; * @author Theater Application&#10; */&#10;public class Play {&#10;&#10;    private String name;&#10;    private String type;&#10;&#10;    public Play(String name, String type) {&#10;        this.name = name;&#10;        this.type = type;&#10;    }&#10;}&#10;" />
+              <option name="updatedContent" value="package theater;&#10;&#10;/**&#10; * Represents a theatrical play with a name and type.&#10; *&#10; * @author Theater Application&#10; */&#10;public class Play {&#10;&#10;    private String name;&#10;    private String type;&#10;&#10;    public Play(String name, String type) {&#10;        this.name = name;&#10;        this.type = type;&#10;    }&#10;&#10;    /**&#10;     * Gets the name of this play.&#10;     *&#10;     * @return the play name&#10;     */&#10;    public String getName() {&#10;        return name;&#10;    }&#10;&#10;    /**&#10;     * Gets the type of this play.&#10;     *&#10;     * @return the play type&#10;     */&#10;    public String getType() {&#10;        return type;&#10;    }&#10;}" />
+            </PendingDiffInfo>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
